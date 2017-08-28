@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49B613D1F53C8A400814EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B613C1F53C8A400814EE9 /* main.m */; };
+		F49B61401F53C8A400814EE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B613F1F53C8A400814EE9 /* AppDelegate.m */; };
+		F49B61431F53C8A400814EE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B61421F53C8A400814EE9 /* ViewController.m */; };
+		F49B61461F53C8A400814EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49B61441F53C8A400814EE9 /* Main.storyboard */; };
+		F49B61481F53C8A400814EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49B61471F53C8A400814EE9 /* Assets.xcassets */; };
+		F49B614B1F53C8A400814EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49B61491F53C8A400814EE9 /* LaunchScreen.storyboard */; };
+		F49B61541F53C8EF00814EE9 /* XYXButtonScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B61531F53C8EF00814EE9 /* XYXButtonScrollerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F49B61381F53C8A400814EE9 /* XYXButtonScrollerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYXButtonScrollerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B613C1F53C8A400814EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F49B613E1F53C8A400814EE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F49B613F1F53C8A400814EE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F49B61411F53C8A400814EE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F49B61421F53C8A400814EE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F49B61451F53C8A400814EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49B61471F53C8A400814EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49B614A1F53C8A400814EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F49B614C1F53C8A400814EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49B61521F53C8EF00814EE9 /* XYXButtonScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYXButtonScrollerView.h; path = XYXButtonScrollerView/XYXButtonScrollerView.h; sourceTree = "<group>"; };
+		F49B61531F53C8EF00814EE9 /* XYXButtonScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYXButtonScrollerView.m; path = XYXButtonScrollerView/XYXButtonScrollerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49B61351F53C8A400814EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49B612F1F53C8A300814EE9 = {
+			isa = PBXGroup;
+			children = (
+				F49B613A1F53C8A400814EE9 /* XYXButtonScrollerView */,
+				F49B61391F53C8A400814EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49B61391F53C8A400814EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49B61381F53C8A400814EE9 /* XYXButtonScrollerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49B613A1F53C8A400814EE9 /* XYXButtonScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				F49B613E1F53C8A400814EE9 /* AppDelegate.h */,
+				F49B613F1F53C8A400814EE9 /* AppDelegate.m */,
+				F49B61411F53C8A400814EE9 /* ViewController.h */,
+				F49B61421F53C8A400814EE9 /* ViewController.m */,
+				F49B61441F53C8A400814EE9 /* Main.storyboard */,
+				F49B61471F53C8A400814EE9 /* Assets.xcassets */,
+				F49B61491F53C8A400814EE9 /* LaunchScreen.storyboard */,
+				F49B614C1F53C8A400814EE9 /* Info.plist */,
+				F49B613B1F53C8A400814EE9 /* Supporting Files */,
+				F49B61551F53C8F700814EE9 /* XYXButtonScrollerView */,
+			);
+			path = XYXButtonScrollerView;
+			sourceTree = "<group>";
+		};
+		F49B613B1F53C8A400814EE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49B613C1F53C8A400814EE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F49B61551F53C8F700814EE9 /* XYXButtonScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				F49B61521F53C8EF00814EE9 /* XYXButtonScrollerView.h */,
+				F49B61531F53C8EF00814EE9 /* XYXButtonScrollerView.m */,
+			);
+			name = XYXButtonScrollerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49B61371F53C8A400814EE9 /* XYXButtonScrollerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49B614F1F53C8A400814EE9 /* Build configuration list for PBXNativeTarget "XYXButtonScrollerView" */;
+			buildPhases = (
+				F49B61341F53C8A400814EE9 /* Sources */,
+				F49B61351F53C8A400814EE9 /* Frameworks */,
+				F49B61361F53C8A400814EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYXButtonScrollerView;
+			productName = XYXButtonScrollerView;
+			productReference = F49B61381F53C8A400814EE9 /* XYXButtonScrollerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49B61301F53C8A300814EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Teresa;
+				TargetAttributes = {
+					F49B61371F53C8A400814EE9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F49B61331F53C8A400814EE9 /* Build configuration list for PBXProject "XYXButtonScrollerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49B612F1F53C8A300814EE9;
+			productRefGroup = F49B61391F53C8A400814EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49B61371F53C8A400814EE9 /* XYXButtonScrollerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49B61361F53C8A400814EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49B614B1F53C8A400814EE9 /* LaunchScreen.storyboard in Resources */,
+				F49B61481F53C8A400814EE9 /* Assets.xcassets in Resources */,
+				F49B61461F53C8A400814EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49B61341F53C8A400814EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49B61541F53C8EF00814EE9 /* XYXButtonScrollerView.m in Sources */,
+				F49B61431F53C8A400814EE9 /* ViewController.m in Sources */,
+				F49B61401F53C8A400814EE9 /* AppDelegate.m in Sources */,
+				F49B613D1F53C8A400814EE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F49B61441F53C8A400814EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49B61451F53C8A400814EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F49B61491F53C8A400814EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49B614A1F53C8A400814EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49B614D1F53C8A400814EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F49B614E1F53C8A400814EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49B61501F53C8A400814EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYXButtonScrollerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Teresa.XYXButtonScrollerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F49B61511F53C8A400814EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYXButtonScrollerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Teresa.XYXButtonScrollerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49B61331F53C8A400814EE9 /* Build configuration list for PBXProject "XYXButtonScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B614D1F53C8A400814EE9 /* Debug */,
+				F49B614E1F53C8A400814EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49B614F1F53C8A400814EE9 /* Build configuration list for PBXNativeTarget "XYXButtonScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B61501F53C8A400814EE9 /* Debug */,
+				F49B61511F53C8A400814EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49B61301F53C8A300814EE9 /* Project object */;
+}
